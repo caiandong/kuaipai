@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-10-19T16:02:12
+# Project created by QtCreator 2018-10-19T16:17:36
 #
 #-------------------------------------------------
 
@@ -26,10 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        widget.cpp
+        widget.cpp \
+    task_sort.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+    task_sort.h
 
 FORMS += \
         widget.ui
